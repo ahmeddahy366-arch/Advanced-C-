@@ -1,10 +1,19 @@
-﻿namespace Advanced_C_
+﻿using System.Diagnostics.Metrics;
+using System.Threading.Channels;
+
+namespace Advanced_C_
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            
+            //    Container<int>c1= new Container<int>();
+            //    c1.Add(1);
+            //    c1.Add(2);
+            //    c1.Add(3);
+            //    int result = c1.Get();
+            //    Console.WriteLine(result);
+
         }
     }
 }
