@@ -36,8 +36,13 @@ namespace Advanced_C_
             // Console.WriteLine(numberMax);
 
             #region question7
-          //Calculator<int > calculator = new Calculator<int>();
-        
+            //Calculator<int > calculator = new Calculator<int>();
+
+            #endregion
+            #region question8
+
+
+            //Repository1<string> repository = new Repository1<string>();
             #endregion
 
 
@@ -69,4 +74,12 @@ namespace Advanced_C_
 //The `struct` constraint specifies that the generic parameter `T` 
 //accepts only value types(such as `int` and `double`) and does not accept reference types(such as `string` or `class`).
 // Syntax: It is written as `where T : struct`.
+#endregion
+#region question8
+//What is the 'class' constraint? Write an example.
+//The class constraint specifies that the generic type parameter
+//T must be a reference type (such as string, class, interface, or delegate). 
+
+//Syntax: where T: class
+
 #endregion
