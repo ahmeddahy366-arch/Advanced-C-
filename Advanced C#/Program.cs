@@ -1,4 +1,5 @@
 ﻿using Advanced_C_.question12;
+using Advanced_C_.question14;
 using System.Data;
 using System.Diagnostics.Metrics;
 using System.Reflection.Metadata;
@@ -65,6 +66,13 @@ namespace Advanced_C_
             #region question12
             //DataManager<product> productt= new DataManager<product>();
             //productt.process();
+            #endregion
+            #region question14
+
+            //SafeList<int> list = new SafeList<int>();
+            //list.add(10);
+            //list.add(20);
+            //Console.WriteLine(list [9]);
             #endregion
 
         }
