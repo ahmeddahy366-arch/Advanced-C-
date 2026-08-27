@@ -49,6 +49,12 @@ namespace Advanced_C_
             //Factory<Customer1> f1 = new Factory<Customer1>();
             //f1.CreateInstance();
             #endregion
+            #region question10
+
+            //Product product = new Product { Id = 10 , Name="ahmed"}; 
+            //Repository<Product> p1=new Repository<Product>();
+            //p1.PrintId(product);
+            #endregion
 
 
         }
@@ -92,4 +98,9 @@ namespace Advanced_C_
 //What is the 'new()' constraint? Write an example.
 //The new() constraint specifies that a generic type parameter
 //    (T) must have a public parameterless constructor
+#endregion
+#region question10
+//What is the interface constraint? Write an example.
+//The interface constraint specifies that the generic type parameter T must implement a specific interface
+
 #endregion
