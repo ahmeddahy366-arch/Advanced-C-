@@ -25,3 +25,10 @@ namespace Advanced_C_
 //2.Code Reusability:
 //3.Performance:
 //4.Clean Code:
+#region question3
+//Q3: What are multiple type parameters? Write Pair<TKey,
+//TValue>.
+//The goal of generics is to enable a class, interface,
+//    or function to accept multiple type placeholders simultaneously
+//    (such as `<T1, T2>` or `<TKey, TValue>`).
+#endregion
