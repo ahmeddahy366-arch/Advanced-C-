@@ -23,6 +23,19 @@ namespace Advanced_C_
             //string name2 = "ali";
             //Swapper.swap<string>(ref name1, ref name2);
             //Console.WriteLine($"name1> {name1} :name2> {name2}");
+            #endregion question6
+           // int xx = 50;
+           // int yy = 60;
+           //int NumberMax= Helper.FindMax<int>(xx, yy);
+           // Console.WriteLine(NumberMax);
+           // double p = 50.44;
+           // double k = 60.44;
+           // double numberMax = Helper.FindMax<double>(p, k);
+           // Console.WriteLine(numberMax);
+
+
+            #region 
+
             #endregion
 
         }
