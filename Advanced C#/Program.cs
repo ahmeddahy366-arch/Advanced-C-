@@ -1,5 +1,6 @@
 ﻿using Advanced_C_.question12;
 using Advanced_C_.question14;
+using Advanced_C_.question15;
 using System.Data;
 using System.Diagnostics.Metrics;
 using System.Reflection.Metadata;
@@ -74,6 +75,12 @@ namespace Advanced_C_
             //list.add(20);
             //Console.WriteLine(list [9]);
             #endregion
+            #region question15
+            //IProducer<Dog> d1 = new DogProducer();
+            //var n = d1.Get();
+            //Console.WriteLine(n);
+            //Console.WriteLine(n.Name);
+            #endregion
 
         }
     }
@@ -131,4 +138,9 @@ namespace Advanced_C_
 //What does the 'default' keyword do in generics?
 //The `default` keyword in Generics is used to obtain the default value for the generic type `T`
 //    when you are unsure whether `T` is a value type or a reference type.
+#endregion
+#region question
+//What is covariance? Explain the 'out' keyword.
+//Covariance allows us to use a more derived type (Child) where a base type (Parent) is expected.
+     //we use the out keyword for covariance in generic interfaces and delegates, when the type is used only as an output
 #endregion
