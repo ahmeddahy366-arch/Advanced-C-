@@ -1,4 +1,5 @@
-﻿using System.Data;
+﻿using Advanced_C_.question12;
+using System.Data;
 using System.Diagnostics.Metrics;
 using System.Reflection.Metadata;
 using System.Threading.Channels;
@@ -61,7 +62,11 @@ namespace Advanced_C_
             //canvas1.Render(myCircle);
 
             #endregion
-
+            #region question12
+            #region question12
+            //DataManager<product> productt= new DataManager<product>();
+            //productt.process();
+            #endregion
 
         }
     }
