@@ -1,4 +1,6 @@
-﻿using System.Diagnostics.Metrics;
+﻿using System.Data;
+using System.Diagnostics.Metrics;
+using System.Reflection.Metadata;
 using System.Threading.Channels;
 
 namespace Advanced_C_
@@ -24,19 +26,20 @@ namespace Advanced_C_
             //Swapper.swap<string>(ref name1, ref name2);
             //Console.WriteLine($"name1> {name1} :name2> {name2}");
             #endregion question6
-           // int xx = 50;
-           // int yy = 60;
-           //int NumberMax= Helper.FindMax<int>(xx, yy);
-           // Console.WriteLine(NumberMax);
-           // double p = 50.44;
-           // double k = 60.44;
-           // double numberMax = Helper.FindMax<double>(p, k);
-           // Console.WriteLine(numberMax);
+            // int xx = 50;
+            // int yy = 60;
+            //int NumberMax= Helper.FindMax<int>(xx, yy);
+            // Console.WriteLine(NumberMax);
+            // double p = 50.44;
+            // double k = 60.44;
+            // double numberMax = Helper.FindMax<double>(p, k);
+            // Console.WriteLine(numberMax);
 
-
-            #region 
-
+            #region question7
+          //Calculator<int > calculator = new Calculator<int>();
+        
             #endregion
+
 
         }
     }
@@ -60,4 +63,10 @@ namespace Advanced_C_
 //What is a generic method? Write Swap<T> method.
 //A generic function (or general method) is a function defined by symbolic type arguments (such as <T>),
 //    allowing it to handle different types using only one piece of code.This is better than rewriting the function multiple times (overloading) for each type, such as int, string, or double.
+#endregion
+#region question7
+//What is the 'struct' constraint? Write an example.
+//The `struct` constraint specifies that the generic parameter `T` 
+//accepts only value types(such as `int` and `double`) and does not accept reference types(such as `string` or `class`).
+// Syntax: It is written as `where T : struct`.
 #endregion
