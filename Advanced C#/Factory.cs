@@ -5,10 +5,13 @@ using System.Text;
 namespace Advanced_C_
 {
     #region question9
-    //internal class Repository1<T> where T : class
-    //{
-    //    public T Name { get; set; }
-    //}
 
+    //internal class Factory<T> where T : new()
+    //{
+    //    public T CreateInstance()
+    //    {
+    //        return new T();
+    //    }
+    //}
     #endregion
 }

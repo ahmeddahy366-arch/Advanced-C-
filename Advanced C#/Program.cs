@@ -44,6 +44,11 @@ namespace Advanced_C_
 
             //Repository1<string> repository = new Repository1<string>();
             #endregion
+            #region question9
+
+            //Factory<Customer1> f1 = new Factory<Customer1>();
+            //f1.CreateInstance();
+            #endregion
 
 
         }
@@ -82,4 +87,9 @@ namespace Advanced_C_
 
 //Syntax: where T: class
 
+#endregion
+#region question9
+//What is the 'new()' constraint? Write an example.
+//The new() constraint specifies that a generic type parameter
+//    (T) must have a public parameterless constructor
 #endregion
