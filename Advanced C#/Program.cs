@@ -55,6 +55,12 @@ namespace Advanced_C_
             //Repository<Product> p1=new Repository<Product>();
             //p1.PrintId(product);
             #endregion
+            #region question11
+            //Circle myCircle =new Circle();
+            //Canvas<Circle> canvas1 = new Canvas<Circle>();  
+            //canvas1.Render(myCircle);
+
+            #endregion
 
 
         }
@@ -104,3 +110,9 @@ namespace Advanced_C_
 //The interface constraint specifies that the generic type parameter T must implement a specific interface
 
 #endregion
+#region question11
+//What is the base class constraint? Write an example.
+//The base class constraint specifies that the generic type parameter T
+//    must inherit from a specific base class (or be that class itself).
+#endregion
+
