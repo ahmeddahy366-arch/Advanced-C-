@@ -81,6 +81,23 @@ namespace Advanced_C_
             //Console.WriteLine(n);
             //Console.WriteLine(n.Name);
             #endregion
+            #region question18
+
+            //counter<int> count1 = new counter<int>();
+            //counter<int> count2 = new counter<int>();
+            //counter<int> count3 = new counter<int>();
+            //counter<int> count4 = new counter<int>();
+            //counter<int> count5 = new counter<int>();
+            //counter<int> count6 = new counter<int>();
+            //counter<string> count11 = new counter<string>();
+            //Console.WriteLine(counter<string>.count);
+
+            //Console.WriteLine(counter<int>.count);
+            #endregion
+
+
+
+
 
         }
     }
@@ -147,6 +164,16 @@ namespace Advanced_C_
 #region question16
 //Q16: What is contravariance? Explain the 'in' keyword.
 //Contravariance allows us to use a generic type of a base class 
+//    (Parent) where a derived class (Child) is expected.
+//we use the in keyword for contravariance when the type is used as an input, such as a method parameter.
+#endregion
+#region question17
+
+//What is the difference between covariance and
+//contravariance?
+//Covariance allows us to use a more derived type (Child) where a base type (Parent) is expected.
+//we use the out keyword for covariance in generic interfaces and delegates, when the type is used only as an output
+//Contravariance allows us to use a generic type of a base class
 //    (Parent) where a derived class (Child) is expected.
 //we use the in keyword for contravariance when the type is used as an input, such as a method parameter.
 #endregion
