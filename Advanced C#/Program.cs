@@ -142,5 +142,11 @@ namespace Advanced_C_
 #region question
 //What is covariance? Explain the 'out' keyword.
 //Covariance allows us to use a more derived type (Child) where a base type (Parent) is expected.
-     //we use the out keyword for covariance in generic interfaces and delegates, when the type is used only as an output
+//we use the out keyword for covariance in generic interfaces and delegates, when the type is used only as an output
+#endregion
+#region question16
+//Q16: What is contravariance? Explain the 'in' keyword.
+//Contravariance allows us to use a generic type of a base class 
+//    (Parent) where a derived class (Child) is expected.
+//we use the in keyword for contravariance when the type is used as an input, such as a method parameter.
 #endregion
