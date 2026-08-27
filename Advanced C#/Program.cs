@@ -14,6 +14,17 @@ namespace Advanced_C_
             //    int result = c1.Get();
             //    Console.WriteLine(result);
 
+            #region question5
+            //int x = 5;
+            //int y = 6;
+            //Swapper.swap<int>(ref   x, ref  y);
+            //Console.WriteLine($"x=> {x} :y=> {y}");
+            //string name1 = "ahmed";
+            //string name2 = "ali";
+            //Swapper.swap<string>(ref name1, ref name2);
+            //Console.WriteLine($"name1> {name1} :name2> {name2}");
+            #endregion
+
         }
     }
 }
@@ -31,4 +42,9 @@ namespace Advanced_C_
 //The goal of generics is to enable a class, interface,
 //    or function to accept multiple type placeholders simultaneously
 //    (such as `<T1, T2>` or `<TKey, TValue>`).
+#endregion
+#region question4
+//What is a generic method? Write Swap<T> method.
+//A generic function (or general method) is a function defined by symbolic type arguments (such as <T>),
+//    allowing it to handle different types using only one piece of code.This is better than rewriting the function multiple times (overloading) for each type, such as int, string, or double.
 #endregion
