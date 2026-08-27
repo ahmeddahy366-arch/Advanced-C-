@@ -63,7 +63,6 @@ namespace Advanced_C_
 
             #endregion
             #region question12
-            #region question12
             //DataManager<product> productt= new DataManager<product>();
             //productt.process();
             #endregion
@@ -120,4 +119,8 @@ namespace Advanced_C_
 //The base class constraint specifies that the generic type parameter T
 //    must inherit from a specific base class (or be that class itself).
 #endregion
-
+#region question13
+//What does the 'default' keyword do in generics?
+//The `default` keyword in Generics is used to obtain the default value for the generic type `T`
+//    when you are unsure whether `T` is a value type or a reference type.
+#endregion
